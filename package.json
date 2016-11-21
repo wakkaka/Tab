@@ -1,9 +1,9 @@
 {
-  "name": "AsyncValidator",
+  "name": "Tab",
   "version": "0.0.1",
-  "description": "Async validator for mobile form ",
+  "description": "小月月的 Tab 教学",
   "repository": {
-    "url": "git@github.com:slowsnail/AsyncValidator.git",
+    "url": "git@github.com:slowsnail/Tab.git",
     "type": "git"
   },
   "scripts": {
