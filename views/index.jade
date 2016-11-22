@@ -1,73 +1,56 @@
 extends layout
 
+
 block content
-	div#my_tab.my_tab
-		div#tab_title.tab_title
+	div#my_tap.my_tap
+		div#tap_title.tap_title
 			ul
-				li
-					a(href="#") 公告
-				li
-					a(href="#") 规则
-				li
-					a(href="#") 论坛
-				li
-					a(href="#") 安全
-				li.select
-					a(href="#") 公益
-
-		div#tab_content.tab_content
-			div.mod(style="display: none;")
+				li.select 第一课
+				li 第二课
+				li 第三课
+		div#content.content
+			div.mod(style='display: block')
 				ul
-					li
-						a(href="#") 张勇：要玩快乐足球
-					li
-						a(href="#") 阿里2000万驰援灾区！
-					li
-						a(href="#") 旅游宝让你边玩边赚钱
-					li
-						a(href="#") 多行跟阿里信用贷款
-
-			div.mod(style="display: none;")
+					li 网页特效原理分析
+					li 响应用户操作
+					li 提示框效果
+					li 事件驱动
+					li 元素属性操作
+					li 动手编写第一个JS特效
+					li 引入函数
+					li 网页换肤效果
+					li 展开/收缩播放列表效果
+			div.mod(style='display: none')
 				ul
-					li
-						a(href="#") 要玩快乐足球
-					li
-						a(href="#") 比特币严管啦！
-					li
-						a(href="#") 商品属性限制
-					li
-						a(href="#") 商品属性限制
-
-			div.mod(style="display: none;")
+					li 改变网页背景颜色
+					li 函数传参
+					li 高重用性函数的编写
+					li 126邮箱全选效果
+					li 循环及遍历操作
+					li 调试器的简单使用
+					li 典型循环的构成
+					li for循环配合if判断
+					li className的使用
+					li innerHTML的使用
+					li 戛纳印象效果
+					li 数组
+					li 字符串连接
+			div.mod(style='display: none')
 				ul
-					li
-						a(href="#") 金牌卖家再起航
-					li
-						a(href="#") 橱窗规则升级啦
-					li
-						a(href="#") 又爱又恨优惠券
-					li
-						a(href="#") 购后送店铺红包
-
-			div.mod(style="display: none;")
-				ul
-					li
-						a(href="#") 个人和总要信息要牢管！
-					li
-						a(href="#") 卖家防范红包欺诈提醒！
-					li
-						a(href="#") 更换收货地址的陷阱！
-					li
-						a(href="#") 注意骗子的技术升级了！
-
-			div.mod(style="display: block;")
-				ul
-					li
-						a(href="#") 走进无声课堂
-					li
-						a(href="#") 淘宝之行大众评审赢公益
-					li
-						a(href="#") 爱心品牌联合征集
-					li
-						a(href="#") 公益机构淘宝开店攻略
+					li JavaScript组成：ECMAScript、DOM、BOM，JavaScript兼容性来源
+					li JavaScript出现的位置、优缺点
+					li 变量、类型、typeof、数据类型转换、变量作用域
+					li 闭包：什么是闭包、简单应用、闭包缺点
+					li 运算符：算术、赋值、关系、逻辑、其他运算符
+					li 程序流程控制：判断、循环、跳出
+					li 命名规范：命名规范及必要性、匈牙利命名法
+					li 函数详解：函数构成、调用、事件、传参数、可变参、返回值
+					li 定时器的使用：setInterval、setTimeout
+					li 定时器应用：站长站导航效果
+					li 定时器应用：自动播放的选项卡
+					li 定时器应用：数码时钟
+					li 程序调试方法
+	div#layout.layout
+		div#loading.loading
+			img(src='/img/loading.gif')
 	

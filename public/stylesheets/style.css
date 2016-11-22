@@ -1,62 +1,59 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-size:12px;
-	list-style: none;
-}
+		*{
+			margin: 0;
+			padding: 0;
+			font: 12px/2  Tahoma;
+			list-style: none;
+		}
+		.my_tap{
+			width: 450px;
+			height: auto;
+			border:1px solid #000;
+			margin:10px auto;
+		}
+		.tap_title{
+			width: 449px;
+			height: 30px;
+			background: #000;
+			padding: 0 1px 0 0;
+		}
+		.content ul{
+			line-height: 25px;
+		}
+		.tap_title li{
+			height: 29px;
+			float: left;
+			padding: 0 20px;
+			text-align: center;
+			line-height: 30px;
+			color: #fff;
+			cursor: pointer;
+		}
+		.tap_title li.select{
+			background: #ccc;
+			color:#000;
+			border-bottom-color: #000;
+		}
+		.tap_title li a:hover{
 
-.my_tab{
-	margin: 10px;
-	border: 1px solid #eee;
-	overflow: hidden;
-}
+			color: #000;
+		}
+		.content .mod{
+			margin:12px 30px;
+		}
+		.content .mod ul li{
+			list-style-type: disc;
+		}
+		.layout{
+			margin: 12px 0 0 0;
+			top: 41px;
+			width: 450px;
+			height: 228px;
+			z-index: 1000;
+			position: absolute;
+		    display: none;
+		}
+		.loading{
+			text-align: center;
+			line-height: 235px;
 
-.tab_title{
-	position: relative;
-	background: #f7f7f7;
-}
-
-.tab_title ul{
-	overflow: hidden;
-}
-
-.tab_title li{
-	float: left;
-	width: 58px;
-	height: 26px;
-	padding: 5px;
-	line-height:26px;
-	border-bottom: 1px solid #eee;
-	text-align: center;
-	background: #fff;
-	background: #f7f7f7;
-}
-
-.tab_title li.select{
-	background: #fff;
-	border-bottom-color: #fff;
-	border-left: 1px solid #eee; 
-	border-right: 1px solid #eee;
-	font-weight: bold;
-}
-
-.my_tab li a:link, .my_tab li a:visited{
-	text-decoration: none;
-	color: #000;
-}
-
-.my_tab li a:hover{
-	color: #f90;
-}
-
-.tab_content {
-	padding: 20px 10px;
-	overflow: hidden;
-}
-.tab_content .mod{
-	margin: 10px 6px;
-}
-
-.tab_content .mod ul li{
-	margin-bottom: 10px;
-}
+		}
