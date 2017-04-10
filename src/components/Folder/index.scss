@@ -1,0 +1,22 @@
+.m-folder {
+    margin-top: 5px;
+    line-height: 1.5;
+    cursor: pointer;
+
+    &-hd {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        i {
+            margin-right: 8px;
+        }
+        h2 {
+            font-size: 14px;
+        }
+
+        .glyphicon {
+            line-height: 1.5;
+        }
+    }
+}
